@@ -87,7 +87,7 @@ public class ControlFormCard {
 				if (t != null)
 					txtAreaResultado.setText(t.toString());
 				else
-					mostrarAlerta("No existe el numero de tarjeta");
+					mostrarAlerta("No existe el numero de tarjeta!s");
 			} catch (Exception e) {
 				mostrarAlerta(e.getMessage());
 			}
